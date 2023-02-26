@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #ffffff;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+h1 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  @apply lg:text-6xl text-4xl text-white font-bold;
+}
+
+h2 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  @apply text-3xl md:text-4xl font-bold text-maindarkblue;
+}
+
+h3 {
+  font-family: "Be Vietnam Pro", sans-serif;
+  @apply text-2xl md:text-3xl font-semibold text-maindarkblue;
+}
+
+p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  @apply text-lg font-normal md:font-normal text-black leading-relaxed;
+}
+
+.link {
+  font-family: "Be Vietnam Pro", sans-serif;
+  @apply text-base lg:text-lg cursor-pointer hover:text-maingold duration-100 ease-in-out;
+}
+
+.link-lang {
+  font-family: "Be Vietnam Pro", sans-serif;
+  @apply text-sm lg:text-base uppercase;
+}
+
+#opening-header {
+  background-size: cover;
+  height: 75vh;
+  margin-left: calc(-50vw + 50%);
+  width: 100vw;
+}
+
+#fyrri-verk-header {
+  background: url("resources/images/bustadur/img5.jpg") no-repeat 50%;
+  background-size: cover;
+  margin-left: calc(-50vw + 50%);
+  width: 100vw;
+  @apply h-[35vh] lg:h-[45vh];
+}
+
+.logo-wrapper {
+  text-align: center;
+  margin-bottom: -40px;
+}
+
+.logo {
+  display: inline-block;
+  @apply w-14 mt-1.5 h-auto hover:fill-maingold duration-100 ease-in-out;
+}
+
+.footer-logo {
+  display: inline-block;
+  filter: invert(65%) sepia(98%) saturate(334%) hue-rotate(6deg) brightness(89%)
+    contrast(95%);
+  @apply w-24 h-auto duration-100 ease-in-out hover:fill-white;
+}
+
+.footer-logo:hover {
+  filter: brightness(0) invert(1);
+  @apply duration-100 ease-in-out;
+}
+
+.nav-li {
+  display: inline-block;
+  @apply pt-0 px-[16px] lg:px-[30px] pb-[30px];
+}
+
+.half {
+  width: 50%;
+  display: block;
+  float: left;
+}
+
+.right-navlist {
+  padding-left: 70px;
+  @apply pl-[50px] lg:pl-[70px];
+}
+
+.left-navlist {
+  text-align: right;
+  @apply pr-[50px] lg:pr-[70px];
+}
+
+.video-docker video {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-docker::after {
+  content: "";
+  position: absolute;
+  height: 75vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.video-content {
+  z-index: 2;
+}
+
+.hideMenuNav {
+  /* display: none;
+  @apply left-full transition-all duration-300 ease-in-out */
+
+  display: block;
+  position: absolute;
+  width: 75%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  @apply transition-all duration-300 ease-in-out -left-3/4;
+}
+
+.showMenuNav {
+  display: block;
+  position: absolute;
+  width: 75%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  @apply transition-all duration-300 ease-in-out left-0 shadow-2xl;
+}
+
+ul.leaders {
+  max-width: 40em;
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none;
+  @apply text-sm md:text-xl text-black;
+}
+
+ul.leaders li:after {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content: ". . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . ";
+}
+
+ul.leaders span:first-child {
+  padding-right: 0.33em;
+  background-color: #ffffff;
+}
+ul.leaders span + span {
+  float: right;
+  padding-left: 0.33em;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+select {
+  -webkit-appearance: listbox !important;
+}
