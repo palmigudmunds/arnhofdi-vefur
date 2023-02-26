@@ -6,8 +6,8 @@ import { useInView } from "react-intersection-observer";
 import HeroSlider, { Overlay, Slide, Nav } from "hero-slider";
 
 import grindverk2 from "../../resources/images/grindverk/img2.jpg";
-import grindverk6 from "../../resources/images/grindverk/img6.jpg";
-import bustadur3 from "../../resources/images/bustadur/img3.jpg";
+import dekogler1 from "../../resources/images/deko-gler/img1.jpeg";
+import bustadur3 from "../../resources/images/bustadur/img2.jpg";
 
 const headerVariants = {
   offscreen: {
@@ -85,7 +85,7 @@ const Hero = () => {
                 initial="offscreen"
                 animate={control}
               >
-                Vanda skal vinnu handa því verkin sín’ oss merkin
+                Vanda skal vinnu handa því verkin sýn’ oss merkin
               </motion.h1>
             </div>
             <motion.div
@@ -108,19 +108,19 @@ const Hero = () => {
 
       <Slide
         background={{
+          backgroundImageSrc: bustadur3,
+        }}
+      />
+
+      <Slide
+        background={{
           backgroundImageSrc: grindverk2,
         }}
       />
 
       <Slide
         background={{
-          backgroundImageSrc: grindverk6,
-        }}
-      />
-
-      <Slide
-        background={{
-          backgroundImageSrc: bustadur3,
+          backgroundImageSrc: dekogler1,
         }}
       />
 

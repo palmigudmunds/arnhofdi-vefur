@@ -34,16 +34,12 @@ const headerVariants = {
 
 const images = [
   {
-    src: grindverk1,
-    alt: "Grindverk",
+    src: bustadur2,
+    alt: "Bústaður",
   },
   {
     src: dekogler1,
     alt: "Deko gler",
-  },
-  {
-    src: hurdir1,
-    alt: "Hurðir",
   },
   {
     src: hjolageymsla1,
@@ -54,9 +50,13 @@ const images = [
     alt: "Léttveggir",
   },
   {
-    src: bustadur2,
-    alt: "Bústaður",
+    src: grindverk1,
+    alt: "Grindverk",
   },
+  {
+    src: hurdir1,
+    alt: "Hurðir",
+  }
 ];
 
 const FrontPageView = () => {

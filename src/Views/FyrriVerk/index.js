@@ -28,19 +28,17 @@ import bustadur10 from "../../resources/images/bustadur/img10.JPG";
 // Deko Gler imports
 import dekogler1 from "../../resources/images/deko-gler/img1.jpeg";
 import dekogler2 from "../../resources/images/deko-gler/img2.jpeg";
-import dekogler3 from "../../resources/images/deko-gler/img3.jpeg";
-import dekogler4 from "../../resources/images/deko-gler/img4.jpeg";
-import dekogler5 from "../../resources/images/deko-gler/img5.jpeg";
+import dekogler3 from "../../resources/images/deko-gler/img4.jpeg";
+import dekogler4 from "../../resources/images/deko-gler/img5.jpeg";
 
 // Hjólageymsla imports
 import hjolageymsla1 from "../../resources/images/hjolageymsla/img1.jpg";
-import hjolageymsla2 from "../../resources/images/hjolageymsla/img2.jpg";
-import hjolageymsla3 from "../../resources/images/hjolageymsla/img3.jpg";
-import hjolageymsla4 from "../../resources/images/hjolageymsla/img4.jpg";
-import hjolageymsla5 from "../../resources/images/hjolageymsla/img5.jpg";
-import hjolageymsla6 from "../../resources/images/hjolageymsla/img6.jpg";
-import hjolageymsla7 from "../../resources/images/hjolageymsla/img7.jpg";
-import hjolageymsla8 from "../../resources/images/hjolageymsla/img8.jpg";
+import hjolageymsla2 from "../../resources/images/hjolageymsla/img3.jpg";
+import hjolageymsla3 from "../../resources/images/hjolageymsla/img4.jpg";
+import hjolageymsla4 from "../../resources/images/hjolageymsla/img5.jpg";
+import hjolageymsla5 from "../../resources/images/hjolageymsla/img6.jpg";
+import hjolageymsla6 from "../../resources/images/hjolageymsla/img7.jpg";
+import hjolageymsla7 from "../../resources/images/hjolageymsla/img8.jpg";
 
 // Hurðir imports
 import hurdir1 from "../../resources/images/hurdir/img1.jpg";
@@ -56,12 +54,11 @@ import hurdir9 from "../../resources/images/hurdir/img9.jpg";
 // Hurðir léttir veggir imports
 import hurdirLettirVeggir1 from "../../resources/images/hurdir-lettirveggir/img1.jpg";
 import hurdirLettirVeggir2 from "../../resources/images/hurdir-lettirveggir/img2.jpg";
-import hurdirLettirVeggir3 from "../../resources/images/hurdir-lettirveggir/img3.jpg";
-import hurdirLettirVeggir4 from "../../resources/images/hurdir-lettirveggir/img4.jpg";
-import hurdirLettirVeggir5 from "../../resources/images/hurdir-lettirveggir/img5.jpeg";
-import hurdirLettirVeggir6 from "../../resources/images/hurdir-lettirveggir/img6.jpg";
-import hurdirLettirVeggir7 from "../../resources/images/hurdir-lettirveggir/img7.jpg";
-import hurdirLettirVeggir8 from "../../resources/images/hurdir-lettirveggir/img8.jpg";
+import hurdirLettirVeggir3 from "../../resources/images/hurdir-lettirveggir/img4.jpg";
+import hurdirLettirVeggir4 from "../../resources/images/hurdir-lettirveggir/img5.jpeg";
+import hurdirLettirVeggir5 from "../../resources/images/hurdir-lettirveggir/img6.jpg";
+import hurdirLettirVeggir6 from "../../resources/images/hurdir-lettirveggir/img7.jpg";
+import hurdirLettirVeggir7 from "../../resources/images/hurdir-lettirveggir/img8.jpg";
 
 const grindverkImages = [
   {
@@ -162,11 +159,7 @@ const dekoglerImages = [
   {
     src: dekogler4,
     alt: "Deko Gler 4",
-  },
-  {
-    src: dekogler5,
-    alt: "Deko Gler 5",
-  },
+  }
 ];
 
 const hjolageymslaImages = [
@@ -197,11 +190,7 @@ const hjolageymslaImages = [
   {
     src: hjolageymsla7,
     alt: "Hjólageymsla 7",
-  },
-  {
-    src: hjolageymsla8,
-    alt: "Hjólageymsla 8",
-  },
+  }
 ];
 
 const hurdirImages = [
@@ -271,11 +260,7 @@ const hurdirLettirVeggirImages = [
   {
     src: hurdirLettirVeggir7,
     alt: "Hurðir og léttir veggir 7",
-  },
-  {
-    src: hurdirLettirVeggir8,
-    alt: "Hurðir og léttir veggir 8",
-  },
+  }
 ];
 
 const FyrriVerkView = () => {
@@ -293,15 +278,15 @@ const FyrriVerkView = () => {
               </div>
             </div>
           </section>
-          <ImageCarousel title={"Grindverk"} images={grindverkImages} />
           <ImageCarousel title={"Bústaður"} images={bustadurImages} />
           <ImageCarousel title={"Deko gler"} images={dekoglerImages} />
           <ImageCarousel title={"Hjólageymsla"} images={hjolageymslaImages} />
-          <ImageCarousel title={"Hurðir"} images={hurdirImages} />
+          <ImageCarousel title={"Grindverk"} images={grindverkImages} />
           <ImageCarousel
             title={"Hurðir og léttir veggir"}
             images={hurdirLettirVeggirImages}
           />
+          <ImageCarousel title={"Hurðir"} images={hurdirImages} />
         </section>
       </Suspense>
     </>
