@@ -180,6 +180,10 @@ ul.leaders span + span {
   z-index: 1;
 }
 
-select {
-  -webkit-appearance: listbox !important;
+textarea,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+     -webkit-appearance: none;
+     border-radius: 0;
 }
