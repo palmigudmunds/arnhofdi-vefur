@@ -36,7 +36,7 @@ import hurdirLettirVeggir2 from "../../resources/images/hurdir-lettirveggir/img2
 import hurdirLettirVeggir3 from "../../resources/images/hurdir-lettirveggir/img3.jpg";
 import hurdirLettirVeggir4 from "../../resources/images/hurdir-lettirveggir/img4.jpg";
 import hurdirLettirVeggir5 from "../../resources/images/hurdir-lettirveggir/img5.jpg";
-import hurdirLettirVeggir6 from "../../resources/images/hurdir-lettirveggir/img6.JPG";
+// import hurdirLettirVeggir6 from "../../resources/images/hurdir-lettirveggir/img6.JPG";
 import hurdirLettirVeggir7 from "../../resources/images/hurdir-lettirveggir/img7.jpg";
 import hurdirLettirVeggir8 from "../../resources/images/hurdir-lettirveggir/img8.jpg";
 import hurdirLettirVeggir9 from "../../resources/images/hurdir-lettirveggir/img9.jpg";
@@ -151,10 +151,10 @@ const hurdirLettirVeggirImages = [
     src: hurdirLettirVeggir3,
     alt: "Hurðir og léttir veggir",
   },
-  {
-    src: hurdirLettirVeggir6,
-    alt: "Hurðir og léttir veggir",
-  },
+  // {
+  //   src: hurdirLettirVeggir6,
+  //   alt: "Hurðir og léttir veggir",
+  // },
   {
     src: hurdirLettirVeggir7,
     alt: "Hurðir og léttir veggir",
