@@ -10,12 +10,11 @@ import Contacts from "../../components/Contacts";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-import grindverk1 from "../../resources/images/grindverk/img1.jpg";
+import grindverk1 from "../../resources/images/solpallar-grindverk/img1.jpg";
 import dekogler1 from "../../resources/images/deko-gler/img1.jpeg";
-import hurdir1 from "../../resources/images/hurdir/img1.jpg";
-import hjolageymsla1 from "../../resources/images/hjolageymsla/img1.jpg";
-import lettveggir1 from "../../resources/images/hurdir-lettirveggir/img1.jpg";
-import bustadur2 from "../../resources/images/bustadur/img2.jpg";
+import hurdir1 from "../../resources/images/hurdir-lettirveggir/img1.jpg";
+import bustadur2 from "../../resources/images/utanhusklaedning/img2.jpg";
+import hurdirLettirVeggir7 from "../../resources/images/hurdir-lettirveggir/img7.jpg";
 
 const headerVariants = {
   offscreen: {
@@ -35,19 +34,11 @@ const headerVariants = {
 const images = [
   {
     src: bustadur2,
-    alt: "Bústaður",
+    alt: "Utanhúsklæðning",
   },
   {
     src: dekogler1,
     alt: "Deko gler",
-  },
-  {
-    src: hjolageymsla1,
-    alt: "Hjólageymsla",
-  },
-  {
-    src: lettveggir1,
-    alt: "Léttveggir",
   },
   {
     src: grindverk1,
@@ -55,7 +46,11 @@ const images = [
   },
   {
     src: hurdir1,
-    alt: "Hurðir",
+    alt: "Léttir veggir",
+  },
+  {
+    src: hurdirLettirVeggir7,
+    alt: "Hjólageymsla",
   }
 ];
 

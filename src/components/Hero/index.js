@@ -5,9 +5,9 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import HeroSlider, { Overlay, Slide, Nav } from "hero-slider";
 
-import grindverk2 from "../../resources/images/grindverk/img2.jpg";
-import dekogler1 from "../../resources/images/deko-gler/img1.jpeg";
-import bustadur3 from "../../resources/images/bustadur/img2.jpg";
+import grindverk2 from "../../resources/images/solpallar-grindverk/img2.jpg";
+import utanhusklaedning7 from "../../resources/images/utanhusklaedning/img7.jpg";
+import bustadur3 from "../../resources/images/utanhusklaedning/img2.jpg";
 
 const headerVariants = {
   offscreen: {
@@ -120,7 +120,7 @@ const Hero = () => {
 
       <Slide
         background={{
-          backgroundImageSrc: dekogler1,
+          backgroundImageSrc: utanhusklaedning7,
         }}
       />
 

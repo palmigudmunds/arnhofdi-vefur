@@ -2,28 +2,27 @@ import Loading from "../../components/Loading";
 import ImageCarousel from "../../components/ImageCarousel";
 import { Suspense } from "react";
 
-// Grindverk imports
-import grindverk1 from "../../resources/images/grindverk/img1.jpg";
-import grindverk2 from "../../resources/images/grindverk/img2.jpg";
-import grindverk3 from "../../resources/images/grindverk/img3.jpg";
-import grindverk4 from "../../resources/images/grindverk/img4.jpg";
-import grindverk5 from "../../resources/images/grindverk/img5.jpg";
-import grindverk6 from "../../resources/images/grindverk/img6.jpg";
-import grindverk7 from "../../resources/images/grindverk/img7.jpg";
-import grindverk8 from "../../resources/images/grindverk/img8.jpg";
-import grindverk9 from "../../resources/images/grindverk/img9.jpg";
+// Sólpallar og grindverk imports
+import grindverk1 from "../../resources/images/solpallar-grindverk/img1.jpg";
+import grindverk2 from "../../resources/images/solpallar-grindverk/img2.jpg";
+import grindverk3 from "../../resources/images/solpallar-grindverk/img3.jpg";
+import grindverk4 from "../../resources/images/solpallar-grindverk/img4.jpg";
+import grindverk5 from "../../resources/images/solpallar-grindverk/img5.jpg";
+import grindverk6 from "../../resources/images/solpallar-grindverk/img6.jpg";
+import grindverk7 from "../../resources/images/solpallar-grindverk/img7.jpg";
+import grindverk8 from "../../resources/images/solpallar-grindverk/img8.jpg";
+import grindverk9 from "../../resources/images/solpallar-grindverk/img9.jpg";
+import grindverk10 from "../../resources/images/solpallar-grindverk/img10.jpg";
+import grindverk11 from "../../resources/images/solpallar-grindverk/img11.JPG";
 
-// Bustadur imports
-import bustadur1 from "../../resources/images/bustadur/img1.jpg";
-import bustadur2 from "../../resources/images/bustadur/img2.jpg";
-import bustadur3 from "../../resources/images/bustadur/img3.jpg";
-import bustadur4 from "../../resources/images/bustadur/img4.jpg";
-import bustadur5 from "../../resources/images/bustadur/img5.jpg";
-import bustadur6 from "../../resources/images/bustadur/img6.jpg";
-import bustadur7 from "../../resources/images/bustadur/img7.jpg";
-import bustadur8 from "../../resources/images/bustadur/img8.JPG";
-import bustadur9 from "../../resources/images/bustadur/img9.JPG";
-import bustadur10 from "../../resources/images/bustadur/img10.JPG";
+// Utanhúsklæðning imports
+import utanhusklaedning1 from "../../resources/images/utanhusklaedning/img1.jpg";
+import utanhusklaedning2 from "../../resources/images/utanhusklaedning/img2.jpg";
+import utanhusklaedning3 from "../../resources/images/utanhusklaedning/img3.jpg";
+import utanhusklaedning4 from "../../resources/images/utanhusklaedning/img4.jpg";
+import utanhusklaedning6 from "../../resources/images/utanhusklaedning/img6.jpg";
+import utanhusklaedning7 from "../../resources/images/utanhusklaedning/img7.jpg";
+import utanhusklaedning8 from "../../resources/images/utanhusklaedning/img8.JPG";
 
 // Deko Gler imports
 import dekogler1 from "../../resources/images/deko-gler/img1.jpeg";
@@ -31,236 +30,151 @@ import dekogler2 from "../../resources/images/deko-gler/img2.jpeg";
 import dekogler3 from "../../resources/images/deko-gler/img4.jpeg";
 import dekogler4 from "../../resources/images/deko-gler/img5.jpeg";
 
-// Hjólageymsla imports
-import hjolageymsla1 from "../../resources/images/hjolageymsla/img1.jpg";
-import hjolageymsla2 from "../../resources/images/hjolageymsla/img3.jpg";
-import hjolageymsla3 from "../../resources/images/hjolageymsla/img4.jpg";
-import hjolageymsla4 from "../../resources/images/hjolageymsla/img5.jpg";
-import hjolageymsla5 from "../../resources/images/hjolageymsla/img6.jpg";
-import hjolageymsla6 from "../../resources/images/hjolageymsla/img7.jpg";
-import hjolageymsla7 from "../../resources/images/hjolageymsla/img8.jpg";
-
-// Hurðir imports
-import hurdir1 from "../../resources/images/hurdir/img1.jpg";
-import hurdir2 from "../../resources/images/hurdir/img2.jpg";
-import hurdir3 from "../../resources/images/hurdir/img3.jpg";
-import hurdir4 from "../../resources/images/hurdir/img4.jpg";
-import hurdir5 from "../../resources/images/hurdir/img5.jpg";
-import hurdir6 from "../../resources/images/hurdir/img6.jpg";
-import hurdir7 from "../../resources/images/hurdir/img7.jpg";
-import hurdir8 from "../../resources/images/hurdir/img8.jpg";
-import hurdir9 from "../../resources/images/hurdir/img9.jpg";
-
 // Hurðir léttir veggir imports
 import hurdirLettirVeggir1 from "../../resources/images/hurdir-lettirveggir/img1.jpg";
-import hurdirLettirVeggir2 from "../../resources/images/hurdir-lettirveggir/img2.jpg";
-import hurdirLettirVeggir3 from "../../resources/images/hurdir-lettirveggir/img4.jpg";
-import hurdirLettirVeggir4 from "../../resources/images/hurdir-lettirveggir/img5.jpeg";
-import hurdirLettirVeggir5 from "../../resources/images/hurdir-lettirveggir/img6.jpg";
-import hurdirLettirVeggir6 from "../../resources/images/hurdir-lettirveggir/img7.jpg";
-import hurdirLettirVeggir7 from "../../resources/images/hurdir-lettirveggir/img8.jpg";
+import hurdirLettirVeggir2 from "../../resources/images/hurdir-lettirveggir/img2.jpeg";
+import hurdirLettirVeggir3 from "../../resources/images/hurdir-lettirveggir/img3.jpg";
+import hurdirLettirVeggir4 from "../../resources/images/hurdir-lettirveggir/img4.jpg";
+import hurdirLettirVeggir5 from "../../resources/images/hurdir-lettirveggir/img5.jpg";
+import hurdirLettirVeggir6 from "../../resources/images/hurdir-lettirveggir/img6.JPG";
+import hurdirLettirVeggir7 from "../../resources/images/hurdir-lettirveggir/img7.jpg";
+import hurdirLettirVeggir8 from "../../resources/images/hurdir-lettirveggir/img8.jpg";
+import hurdirLettirVeggir9 from "../../resources/images/hurdir-lettirveggir/img9.jpg";
 
 const grindverkImages = [
   {
+    src: grindverk10,
+    alt: "Grindverk",
+  },
+  {
     src: grindverk1,
-    alt: "Grindverk 1",
+    alt: "Grindverk",
   },
   {
     src: grindverk2,
-    alt: "Grindverk 2",
+    alt: "Grindverk",
   },
   {
     src: grindverk3,
-    alt: "Grindverk 3",
+    alt: "Grindverk",
   },
   {
     src: grindverk4,
-    alt: "Grindverk 4",
+    alt: "Grindverk",
   },
   {
     src: grindverk5,
-    alt: "Grindverk 5",
+    alt: "Grindverk",
   },
   {
     src: grindverk6,
-    alt: "Grindverk 6",
+    alt: "Grindverk",
   },
   {
     src: grindverk7,
-    alt: "Grindverk 7",
-  },
-  {
-    src: grindverk8,
-    alt: "Grindverk 8",
+    alt: "Grindverk",
   },
   {
     src: grindverk9,
-    alt: "Grindverk 9",
+    alt: "Grindverk",
+  },
+  {
+    src: grindverk8,
+    alt: "Grindverk",
+  },
+  {
+    src: grindverk11,
+    alt: "Grindverk",
   },
 ];
 
-const bustadurImages = [
+const utanhusklaedningImages = [
   {
-    src: bustadur1,
-    alt: "Bustadur 1",
+    src: utanhusklaedning1,
+    alt: "Utanhúsklæðning",
   },
   {
-    src: bustadur2,
-    alt: "Bustadur 2",
+    src: utanhusklaedning2,
+    alt: "Utanhúsklæðning",
   },
   {
-    src: bustadur3,
-    alt: "Bustadur 3",
+    src: utanhusklaedning3,
+    alt: "Utanhúsklæðning",
   },
   {
-    src: bustadur4,
-    alt: "Bustadur 4",
+    src: utanhusklaedning4,
+    alt: "Utanhúsklæðning",
   },
   {
-    src: bustadur5,
-
-    alt: "Bustadur 5",
+    src: utanhusklaedning6,
+    alt: "Utanhúsklæðning",
   },
   {
-    src: bustadur6,
-    alt: "Bustadur 6",
+    src: utanhusklaedning7,
+    alt: "Utanhúsklæðning",
   },
   {
-    src: bustadur7,
-    alt: "Bustadur 7",
-  },
-  {
-    src: bustadur8,
-    alt: "Bustadur 8",
-  },
-  {
-    src: bustadur9,
-    alt: "Bustadur 9",
-  },
-  {
-    src: bustadur10,
-    alt: "Bustadur 10",
+    src: utanhusklaedning8,
+    alt: "Utanhúsklæðning",
   },
 ];
 
 const dekoglerImages = [
   {
     src: dekogler1,
-    alt: "Deko Gler 1",
+    alt: "Deko Gler",
   },
   {
     src: dekogler2,
-    alt: "Deko Gler 2",
+    alt: "Deko Gler",
   },
   {
     src: dekogler3,
-    alt: "Deko Gler 3",
+    alt: "Deko Gler",
   },
   {
     src: dekogler4,
-    alt: "Deko Gler 4",
+    alt: "Deko Gler",
   }
-];
-
-const hjolageymslaImages = [
-  {
-    src: hjolageymsla1,
-    alt: "Hjólageymsla 1",
-  },
-  {
-    src: hjolageymsla2,
-    alt: "Hjólageymsla 2",
-  },
-  {
-    src: hjolageymsla3,
-    alt: "Hjólageymsla 3",
-  },
-  {
-    src: hjolageymsla4,
-    alt: "Hjólageymsla 4",
-  },
-  {
-    src: hjolageymsla5,
-    alt: "Hjólageymsla 5",
-  },
-  {
-    src: hjolageymsla6,
-    alt: "Hjólageymsla 6",
-  },
-  {
-    src: hjolageymsla7,
-    alt: "Hjólageymsla 7",
-  }
-];
-
-const hurdirImages = [
-  {
-    src: hurdir1,
-    alt: "Hurðir 1",
-  },
-  {
-    src: hurdir2,
-    alt: "Hurðir 2",
-  },
-  {
-    src: hurdir3,
-    alt: "Hurðir 3",
-  },
-  {
-    src: hurdir4,
-    alt: "Hurðir 4",
-  },
-  {
-    src: hurdir5,
-    alt: "Hurðir 5",
-  },
-  {
-    src: hurdir6,
-    alt: "Hurðir 6",
-  },
-  {
-    src: hurdir7,
-    alt: "Hurðir 7",
-  },
-  {
-    src: hurdir8,
-    alt: "Hurðir 8",
-  },
-  {
-    src: hurdir9,
-    alt: "Hurðir 9",
-  },
 ];
 
 const hurdirLettirVeggirImages = [
   {
     src: hurdirLettirVeggir1,
-    alt: "Hurðir og léttir veggir 1",
+    alt: "Hurðir og léttir veggir",
   },
   {
     src: hurdirLettirVeggir2,
-    alt: "Hurðir og léttir veggir 2",
+    alt: "Hurðir og léttir veggir",
   },
   {
     src: hurdirLettirVeggir3,
-    alt: "Hurðir og léttir veggir 3",
-  },
-  {
-    src: hurdirLettirVeggir4,
-    alt: "Hurðir og léttir veggir 4",
-  },
-  {
-    src: hurdirLettirVeggir5,
-    alt: "Hurðir og léttir veggir 5",
+    alt: "Hurðir og léttir veggir",
   },
   {
     src: hurdirLettirVeggir6,
-    alt: "Hurðir og léttir veggir 6",
+    alt: "Hurðir og léttir veggir",
   },
   {
     src: hurdirLettirVeggir7,
-    alt: "Hurðir og léttir veggir 7",
-  }
+    alt: "Hurðir og léttir veggir",
+  },
+  {
+    src: hurdirLettirVeggir8,
+    alt: "Hurðir og léttir veggir",
+  },
+  {
+    src: hurdirLettirVeggir9,
+    alt: "Hurðir og léttir veggir",
+  },
+  {
+    src: hurdirLettirVeggir4,
+    alt: "Hurðir og léttir veggir",
+  },
+  {
+    src: hurdirLettirVeggir5,
+    alt: "Hurðir og léttir veggir",
+  },
 ];
 
 const FyrriVerkView = () => {
@@ -278,15 +192,13 @@ const FyrriVerkView = () => {
               </div>
             </div>
           </section>
-          <ImageCarousel title={"Bústaður"} images={bustadurImages} />
+          <ImageCarousel title={"Utanhúsklæðning"} images={utanhusklaedningImages} />
           <ImageCarousel title={"Deko gler"} images={dekoglerImages} />
-          <ImageCarousel title={"Hjólageymsla"} images={hjolageymslaImages} />
-          <ImageCarousel title={"Grindverk"} images={grindverkImages} />
+          <ImageCarousel title={"Sólpallar og grindverk"} images={grindverkImages} />
           <ImageCarousel
             title={"Hurðir og léttir veggir"}
             images={hurdirLettirVeggirImages}
           />
-          <ImageCarousel title={"Hurðir"} images={hurdirImages} />
         </section>
       </Suspense>
     </>
