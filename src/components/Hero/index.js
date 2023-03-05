@@ -5,9 +5,9 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import HeroSlider, { Overlay, Slide, Nav } from "hero-slider";
 
-import grindverk2 from "../../resources/images/solpallar-grindverk/img2.jpg";
-import utanhusklaedning7 from "../../resources/images/utanhusklaedning/img7.jpg";
-import bustadur3 from "../../resources/images/utanhusklaedning/img2.jpg";
+const grindverk2 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028133/ahverk/solpallar-grindverk/img2_dtx6kl.jpg";
+const utanhusklaedning7 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678027531/ahverk/utanhusklaedning/img7_vwazg9.jpg";
+const utanhusklaedning2 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678022904/ahverk/utanhusklaedning/img2_of2snq.jpg";
 
 const headerVariants = {
   offscreen: {
@@ -108,7 +108,7 @@ const Hero = () => {
 
       <Slide
         background={{
-          backgroundImageSrc: bustadur3,
+          backgroundImageSrc: utanhusklaedning2,
         }}
       />
 

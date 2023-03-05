@@ -30,7 +30,6 @@ const ImageCarousel = ({ title, images }) => {
                     src={image.src}
                     alt={image.alt}
                     className="w-full h-full object-cover"
-                    loading="lazy"
                   />
                 </button>
               </div>
