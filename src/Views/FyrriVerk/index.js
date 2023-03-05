@@ -3,43 +3,42 @@ import ImageCarousel from "../../components/ImageCarousel";
 import { Suspense } from "react";
 
 // Sólpallar og grindverk imports
-import grindverk1 from "../../resources/images/solpallar-grindverk/img1.jpg";
-import grindverk2 from "../../resources/images/solpallar-grindverk/img2.jpg";
-import grindverk3 from "../../resources/images/solpallar-grindverk/img3.jpg";
-import grindverk4 from "../../resources/images/solpallar-grindverk/img4.jpg";
-import grindverk5 from "../../resources/images/solpallar-grindverk/img5.jpg";
-import grindverk6 from "../../resources/images/solpallar-grindverk/img6.jpg";
-import grindverk7 from "../../resources/images/solpallar-grindverk/img7.jpg";
-import grindverk8 from "../../resources/images/solpallar-grindverk/img8.jpg";
-import grindverk9 from "../../resources/images/solpallar-grindverk/img9.jpg";
-import grindverk10 from "../../resources/images/solpallar-grindverk/img10.jpg";
-import grindverk11 from "../../resources/images/solpallar-grindverk/img11.JPG";
+const grindverk1 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028132/ahverk/solpallar-grindverk/img1_p60el5.jpg";
+const grindverk2 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028133/ahverk/solpallar-grindverk/img2_dtx6kl.jpg";
+const grindverk3 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028133/ahverk/solpallar-grindverk/img3_x3f9ed.jpg";
+const grindverk4 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028135/ahverk/solpallar-grindverk/img4_v1zfme.jpg";
+const grindverk5 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028136/ahverk/solpallar-grindverk/img5_ihvpv2.jpg";
+const grindverk6 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028135/ahverk/solpallar-grindverk/img6_byzfio.jpg";
+const grindverk7 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028135/ahverk/solpallar-grindverk/img7_kt12qq.jpg";
+const grindverk8 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028133/ahverk/solpallar-grindverk/img8_rabq2e.jpg";
+const grindverk9 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028135/ahverk/solpallar-grindverk/img9_tuswor.jpg";
+const grindverk10 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028135/ahverk/solpallar-grindverk/img10_ojng8g.jpg";
+const grindverk11 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028133/ahverk/solpallar-grindverk/img11_lxawqg.jpg";
 
 // Utanhúsklæðning imports
-import utanhusklaedning1 from "../../resources/images/utanhusklaedning/img1.jpg";
-import utanhusklaedning2 from "../../resources/images/utanhusklaedning/img2.jpg";
-import utanhusklaedning3 from "../../resources/images/utanhusklaedning/img3.jpg";
-import utanhusklaedning4 from "../../resources/images/utanhusklaedning/img4.jpg";
-import utanhusklaedning6 from "../../resources/images/utanhusklaedning/img6.jpg";
-import utanhusklaedning7 from "../../resources/images/utanhusklaedning/img7.jpg";
-import utanhusklaedning8 from "../../resources/images/utanhusklaedning/img8.JPG";
+const utanhusklaedning1 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678027527/ahverk/utanhusklaedning/img1_wjamjn.jpg";
+const utanhusklaedning2 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678022904/ahverk/utanhusklaedning/img2_of2snq.jpg";
+const utanhusklaedning3 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678027533/ahverk/utanhusklaedning/img3_d7nag5.jpg";
+const utanhusklaedning4 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678027527/ahverk/utanhusklaedning/img4_wwm21j.jpg";
+const utanhusklaedning6 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678027529/ahverk/utanhusklaedning/img6_hf6eef.jpg";
+const utanhusklaedning7 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678027531/ahverk/utanhusklaedning/img7_vwazg9.jpg";
+const utanhusklaedning8 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678027528/ahverk/utanhusklaedning/img8_crsyu5.jpg";
 
 // Deko Gler imports
-import dekogler1 from "../../resources/images/deko-gler/img1.jpeg";
-import dekogler2 from "../../resources/images/deko-gler/img2.jpeg";
-import dekogler3 from "../../resources/images/deko-gler/img4.jpeg";
-import dekogler4 from "../../resources/images/deko-gler/img5.jpeg";
+const dekogler1 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028105/ahverk/deko-gler/img1_bcp4sd.jpg";
+const dekogler2 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028105/ahverk/deko-gler/img2_ywa2xa.jpg";
+const dekogler3 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028105/ahverk/deko-gler/img4_gqmnso.jpg";
+const dekogler4 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028105/ahverk/deko-gler/img5_paukdg.jpg";
 
 // Hurðir léttir veggir imports
-import hurdirLettirVeggir1 from "../../resources/images/hurdir-lettirveggir/img1.jpg";
-import hurdirLettirVeggir2 from "../../resources/images/hurdir-lettirveggir/img2.jpeg";
-import hurdirLettirVeggir3 from "../../resources/images/hurdir-lettirveggir/img3.jpg";
-import hurdirLettirVeggir4 from "../../resources/images/hurdir-lettirveggir/img4.jpg";
-import hurdirLettirVeggir5 from "../../resources/images/hurdir-lettirveggir/img5.jpg";
-// import hurdirLettirVeggir6 from "../../resources/images/hurdir-lettirveggir/img6.JPG";
-import hurdirLettirVeggir7 from "../../resources/images/hurdir-lettirveggir/img7.jpg";
-import hurdirLettirVeggir8 from "../../resources/images/hurdir-lettirveggir/img8.jpg";
-import hurdirLettirVeggir9 from "../../resources/images/hurdir-lettirveggir/img9.jpg";
+const hurdirLettirVeggir1 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028066/ahverk/hurdir-lettirveggir/img1_jikzwe.jpg";
+const hurdirLettirVeggir2 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028065/ahverk/hurdir-lettirveggir/img2_w3h3yh.jpg";
+const hurdirLettirVeggir3 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028069/ahverk/hurdir-lettirveggir/img3_qrxljd.jpg";
+const hurdirLettirVeggir4 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028066/ahverk/hurdir-lettirveggir/img4_a5zwbv.jpg";
+const hurdirLettirVeggir5 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028066/ahverk/hurdir-lettirveggir/img5_rcgmah.jpg";
+const hurdirLettirVeggir7 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028069/ahverk/hurdir-lettirveggir/img7_nbgmqs.jpg";
+const hurdirLettirVeggir8 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028066/ahverk/hurdir-lettirveggir/img8_xgb5iz.jpg";
+const hurdirLettirVeggir9 = "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028066/ahverk/hurdir-lettirveggir/img9_ujm3wx.jpg";
 
 const grindverkImages = [
   {
@@ -151,10 +150,6 @@ const hurdirLettirVeggirImages = [
     src: hurdirLettirVeggir3,
     alt: "Hurðir og léttir veggir",
   },
-  // {
-  //   src: hurdirLettirVeggir6,
-  //   alt: "Hurðir og léttir veggir",
-  // },
   {
     src: hurdirLettirVeggir7,
     alt: "Hurðir og léttir veggir",
