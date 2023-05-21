@@ -6,11 +6,11 @@ import { useInView } from "react-intersection-observer";
 import HeroSlider, { Overlay, Slide, Nav } from "hero-slider";
 
 const grindverk2 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678537391/ahverk/thakvinna/img2_hkp2kl.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678537391/ahverk/thakvinna/img2_hkp2kl.jpg";
 const utanhusklaedning7 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678027531/ahverk/utanhusklaedning/img7_vwazg9.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678027531/ahverk/utanhusklaedning/img7_vwazg9.jpg";
 const utanhusklaedning2 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678022904/ahverk/utanhusklaedning/img2_of2snq.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678022904/ahverk/utanhusklaedning/img2_of2snq.jpg";
 
 const headerVariants = {
   offscreen: {

@@ -1,11 +1,11 @@
 const gluggargler1 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678538935/ahverk/gler-gluggar/img1_kyr2wt.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678538935/ahverk/gler-gluggar/img1_kyr2wt.jpg";
 const gluggargler2 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678538935/ahverk/gler-gluggar/img2_eegohy.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678538935/ahverk/gler-gluggar/img2_eegohy.jpg";
 const gluggargler3 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678538935/ahverk/gler-gluggar/img3_mkihxy.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678538935/ahverk/gler-gluggar/img3_mkihxy.jpg";
 const gluggargler4 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678538935/ahverk/gler-gluggar/img4_zcp68g.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678538935/ahverk/gler-gluggar/img4_zcp68g.jpg";
 
 export const gluggarglerImages = [
   {

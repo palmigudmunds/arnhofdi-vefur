@@ -24,13 +24,13 @@ const thakvinna11 =
 const thakvinna12 =
   "https://res.cloudinary.com/dq2uenf18/image/upload/v1678537392/ahverk/thakvinna/img12_gznapx.jpg";
 const thakvinna13 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678537393/ahverk/thakvinna/img13_ktef3k.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678537393/ahverk/thakvinna/img13_ktef3k.jpg";
 const thakvinna14 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678537392/ahverk/thakvinna/img14_nvige1.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678537392/ahverk/thakvinna/img14_nvige1.jpg";
 const thakvinna15 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678537394/ahverk/thakvinna/img15_cdw1rv.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678537394/ahverk/thakvinna/img15_cdw1rv.jpg";
 const thakvinna16 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678537393/ahverk/thakvinna/img16_t4wg0p.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678537393/ahverk/thakvinna/img16_t4wg0p.jpg";
 
 export const thakvinnaImages = [
   {

@@ -9,15 +9,15 @@ import ImageCarousel from "../../components/ImageCarousel";
 import Contacts from "../../components/Contacts";
 
 const grindverk1 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028132/ahverk/solpallar-grindverk/img1_p60el5.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678028132/ahverk/solpallar-grindverk/img1_p60el5.jpg";
 const dekogler1 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028105/ahverk/deko-gler/img1_bcp4sd.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678028105/ahverk/deko-gler/img1_bcp4sd.jpg";
 const hurdirLettirVeggir1 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028066/ahverk/hurdir-lettirveggir/img1_jikzwe.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678028066/ahverk/hurdir-lettirveggir/img1_jikzwe.jpg";
 const utanhusklaedning2 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678022904/ahverk/utanhusklaedning/img2_of2snq.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678022904/ahverk/utanhusklaedning/img2_of2snq.jpg";
 const hurdirLettirVeggir7 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028069/ahverk/hurdir-lettirveggir/img7_nbgmqs.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678028069/ahverk/hurdir-lettirveggir/img7_nbgmqs.jpg";
 
 const images = [
   {

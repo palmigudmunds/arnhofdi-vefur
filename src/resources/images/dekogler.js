@@ -1,12 +1,12 @@
 // Deko Gler imports
 const dekogler1 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028105/ahverk/deko-gler/img1_bcp4sd.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678028105/ahverk/deko-gler/img1_bcp4sd.jpg";
 const dekogler2 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028105/ahverk/deko-gler/img2_ywa2xa.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678028105/ahverk/deko-gler/img2_ywa2xa.jpg";
 const dekogler3 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028105/ahverk/deko-gler/img4_gqmnso.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678028105/ahverk/deko-gler/img4_gqmnso.jpg";
 const dekogler4 =
-  "https://res.cloudinary.com/dq2uenf18/image/upload/v1678028105/ahverk/deko-gler/img5_paukdg.jpg";
+  "https://res.cloudinary.com/dq2uenf18/image/upload/q_auto,f_auto,fl_lossy/v1678028105/ahverk/deko-gler/img5_paukdg.jpg";
 
 export const dekoglerImages = [
   {
