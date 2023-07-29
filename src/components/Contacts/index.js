@@ -36,18 +36,6 @@ const Contacts = () => {
         </div>
 
         <div className="border-2 p-10 border-maingold shadow-[-5px_5px] shadow-maingold min-h[12rem] max-h-[15rem]">
-          <h3 className="mb-4">Israel Diaz</h3>
-          <div className="flex items-center">
-            <Briefcase className="mb-px w-5 md:w-3.5 h-auto mr-3" />
-            <p className="leading-tight">Verkefnastjóri</p>
-          </div>
-          <div className="flex mt-2">
-            <Phone className="mb-px w-5 md:w-3.5 h-auto mr-3" />
-            <p>769-6496</p>
-          </div>
-        </div>
-
-        <div className="border-2 p-10 border-maingold shadow-[-5px_5px] shadow-maingold min-h[12rem] max-h-[15rem]">
           <h3 className="mb-4">Þorsteinn Elvar</h3>
           <div className="flex items-center">
             <Briefcase className="mb-px w-5 md:w-3.5 h-auto mr-3" />
