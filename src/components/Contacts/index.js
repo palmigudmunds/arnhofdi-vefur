@@ -7,7 +7,7 @@ const Contacts = () => {
     <div id="contacts" className="flex flex-col md:items-center max-w-none">
       <div className="md:w-1/2 flex flex-col md:items-center">
         <h2 className="text-start md:text-center md:w-10/12 xl:w-8/12">
-          Helstu tengiliðir
+          Tengiliðir
         </h2>
       </div>
       <div className="grid md:grid-cols-2 gap-8 md:gap-10 pt-10">
@@ -32,18 +32,6 @@ const Contacts = () => {
           <div className="flex mt-2">
             <Phone className="mb-px w-5 md:w-3.5 h-auto mr-3" />
             <p>855-3344</p>
-          </div>
-        </div>
-
-        <div className="border-2 p-10 border-maingold shadow-[-5px_5px] shadow-maingold min-h[12rem] max-h-[15rem]">
-          <h3 className="mb-4">Þorsteinn Elvar</h3>
-          <div className="flex items-center">
-            <Briefcase className="mb-px w-5 md:w-3.5 h-auto mr-3" />
-            <p className="leading-tight">Mannauðsstjóri</p>
-          </div>
-          <div className="flex mt-2">
-            <Phone className="mb-px w-5 md:w-3.5 h-auto mr-3" />
-            <p>777-0263</p>
           </div>
         </div>
       </div>
